@@ -4,6 +4,7 @@ object camion {
     var property carga = []
     method cargarCosas(unaCosa){
         carga.add(unaCosa)
+        unaCosa.esCargado()
     }
     method descargarCosas(unaCosa){
         carga.remove(unaCosa)
